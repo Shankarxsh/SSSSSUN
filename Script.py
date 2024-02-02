@@ -7,7 +7,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
 ✯ Lɪʙʀᴀʀʏ: <a href='docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Owner: <a href='https://t.me/Master_Jiraya_Bot'>Master Jiraya</a>
+✯ Owner: <a href='https://t.me/Shankar647'>Shanu</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='www.mongodb.com'>MᴏɴɢᴏDB</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: Aws
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
@@ -198,7 +198,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href="https://t.me/myfilmyduniya0143">{file_nmae}</a></b>"""
+    CAPTION = """<b><a href="https://t.me/moviewalabyshankar">{file_name}</a></b>"""
 
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
