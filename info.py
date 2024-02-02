@@ -21,12 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6680160236:AAHBCEEaxymPeLMfYesAPMYSi1Kkq2p
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/90b4436a43c193bcd0296.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/90b4436a43c193bcd0296.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/90b4436a43c193bcd0296.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/90b4436a43c193bcd0296.jpg")
-VRFIED_IMG = environ.get("VRFIED_IMG", "https://graph.org/file/90b4436a43c193bcd0296.jpg")
-VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/90b4436a43c193bcd0296.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/53f5c30f2a2ea008e0135.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/53f5c30f2a2ea008e0135.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/53f5c30f2a2ea008e0135.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/53f5c30f2a2ea008e0135.jpg")
+VRFIED_IMG = environ.get("VRFIED_IMG", "https://graph.org/file/53f5c30f2a2ea008e0135.jpg")
+VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/53f5c30f2a2ea008e0135.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1991522624 1370253312').split()]
