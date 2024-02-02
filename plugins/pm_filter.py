@@ -137,7 +137,6 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
         ])
     else:
@@ -462,7 +461,6 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         )
     # if ENABLE_SHORTLINK == True:
     btn.insert(0, [
-        InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
     ])
     # else:
@@ -1757,12 +1755,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Owner_0143")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/Shankar647")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+                InputMediaPhoto("https://graph.org/file/53f5c30f2a2ea008e0135.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1788,7 +1786,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("https://telegra.ph/file/10ce98d4446e117df4932.jpg")
+                InputMediaPhoto("https://graph.org/file/53f5c30f2a2ea008e0135.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1826,7 +1824,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Owner_0143")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Shankar647")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2051,7 +2049,6 @@ async def auto_filter(client, msg, spoll=False):
     #         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
     #     ])
         btn.insert(0, [
-            InlineKeyboardButton("New Movie", url=f"https://t.me/+pIoKqGCYU9wwZDRl"),
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
         ])
     # if ENABLE_TUTORIAL == True:
